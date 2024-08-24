@@ -21,7 +21,8 @@
         "onCommand:vstortoise.svnUpdate",
         "onCommand:vstortoise.svnDiff",
         "onCommand:vstortoise.svnBlame",
-        "onCommand:vstortoise.svnProperties"
+        "onCommand:vstortoise.svnProperties",
+        "onCommand:vstortoise.svnRepobrowser"
     ],
     "main": "./out/extension",
     "contributes": {
@@ -64,6 +65,10 @@
             {
                 "command": "vstortoise.svnProperties",
                 "title": "Properties"
+            },
+            {
+                "command": "vstortoise.svnRepobrowser",
+                "title": "Repo-browser"
             }
         ],
         "keybindings": [
@@ -123,6 +128,10 @@
                 {
                     "command": "vstortoise.svnProperties",
                     "group": "TortoiseSVN@7"
+                },
+                {
+                    "command": "vstortoise.svnRepobrowser",
+                    "group": "TortoiseSVN@8"
                 }
             ],
             "explorer/context": [
