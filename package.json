@@ -20,7 +20,8 @@
         "onCommand:vstortoise.svnCommit",
         "onCommand:vstortoise.svnUpdate",
         "onCommand:vstortoise.svnDiff",
-        "onCommand:vstortoise.svnBlame"
+        "onCommand:vstortoise.svnBlame",
+        "onCommand:vstortoise.svnProperties"
     ],
     "main": "./out/extension",
     "contributes": {
@@ -59,6 +60,10 @@
             {
                 "command": "vstortoise.svnBlame",
                 "title": "Blame"
+            },
+            {
+                "command": "vstortoise.svnProperties",
+                "title": "Properties"
             }
         ],
         "keybindings": [
@@ -114,6 +119,10 @@
                 {
                     "command": "vstortoise.svnBlame",
                     "group": "TortoiseSVN@6"
+                },
+                {
+                    "command": "vstortoise.svnProperties",
+                    "group": "TortoiseSVN@7"
                 }
             ],
             "explorer/context": [

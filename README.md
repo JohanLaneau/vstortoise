@@ -16,6 +16,7 @@ current active file or a folder in the explorer by right-clicking on it.
 * vstortoise.svnDiff : Open __diff__ for the current active file
 * vstortoise.svnRevert : Open __revert__ for the current active file
 * vstortoise.svnBlame : Open __blame__ for the current active file
+* vstortoise.svnProperties : Open __properties__ for the current active file
 * vstortoise.svnCommit : Open __commit__ for the current active file
 * vstortoise.svnUpdate : Open __update__ for the current active file
 

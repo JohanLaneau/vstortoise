@@ -30,6 +30,10 @@ export function activate(context: ExtensionContext) {
 
     });
 
+    let svnProperties = commands.registerCommand('vstortoise.svnProperties', (commandContext :any) => {
+        commandBuilder.build('properties', getActiveFilename(commandContext)).exec()
+    });
+
     let svnCommitDiff = commands.registerCommand('vstortoise.svnDiff', (commandContext :any) => {
         commandBuilder.build('diff', getActiveFilename(commandContext)).exec()
 
@@ -50,6 +54,7 @@ export function activate(context: ExtensionContext) {
     context.subscriptions.push(svnLogCommand);
     context.subscriptions.push(svnCommitCommand);
     context.subscriptions.push(svnCommitBlame);
+    context.subscriptions.push(svnProperties);
     context.subscriptions.push(svnCommitDiff);
     context.subscriptions.push(svnCommitRevert);
     context.subscriptions.push(svnUpdateCommand);
