@@ -36,6 +36,13 @@ by specifying the directory in extension settings.
 
 ## Changelog
 
+### 1.3.1
+- Add commands for 'Update to revision'.
+- Rename "Diff" to "Check for modifications".
+
+### 1.3.1
+- Add commands for 'properties' and 'repo-browser'.
+
 ### 1.2.0
 - Add configuration to set TortoiseSVN path
 - minor refactoring
