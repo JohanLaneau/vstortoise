@@ -51,8 +51,11 @@ export function activate(context: ExtensionContext) {
     });
 
     let svnUpdateCommand = commands.registerCommand('vstortoise.svnUpdate', (commandContext :any) => {
-        commandBuilder.build('update', getActiveFilename(commandContext)).exec()
+        commandBuilder.build('update', getActiveFilename(commandContext)).exec();
+    });
 
+    let svnUpdateToRev = commands.registerCommand('vstortoise.svnUpdateToRev', (commandContext :any) => {
+        commandBuilder.build('update /rev', getActiveFilename(commandContext)).exec();
     });
 
     context.subscriptions.push(svnLogCommand);
@@ -63,6 +66,7 @@ export function activate(context: ExtensionContext) {
     context.subscriptions.push(svnCommitDiff);
     context.subscriptions.push(svnCommitRevert);
     context.subscriptions.push(svnUpdateCommand);
+    context.subscriptions.push(svnUpdateToRev);
 
 }
 

@@ -19,6 +19,7 @@ This extension is a fork of the extension by Florent Ulve.
 * vstortoise.svnRepobrowser : Open __repo-browser__ for the current active file
 * vstortoise.svnCommit : Open __commit__ for the current active file
 * vstortoise.svnUpdate : Open __update__ for the current active file
+* vstortoise.svnUpdateToRev : Open __update-to-revision__ for the current active file
 
 ## Default Keybindings
 

@@ -19,6 +19,7 @@
         "onCommand:vstortoise.svnRevert",
         "onCommand:vstortoise.svnCommit",
         "onCommand:vstortoise.svnUpdate",
+        "onCommand:vstortoise.svnUpdateToRev",
         "onCommand:vstortoise.svnDiff",
         "onCommand:vstortoise.svnBlame",
         "onCommand:vstortoise.svnProperties",
@@ -53,6 +54,10 @@
             {
                 "command": "vstortoise.svnUpdate",
                 "title": "Update"
+            },
+            {
+                "command": "vstortoise.svnUpdateToRev",
+                "title": "Update to revision"
             },
             {
                 "command": "vstortoise.svnDiff",
@@ -110,28 +115,32 @@
                     "group": "TortoiseSVN@2"
                 },
                 {
-                    "command": "vstortoise.svnCommit",
+                    "command": "vstortoise.svnUpdateToRev",
                     "group": "TortoiseSVN@3"
                 },
                 {
-                    "command": "vstortoise.svnRevert",
+                    "command": "vstortoise.svnCommit",
                     "group": "TortoiseSVN@4"
                 },
                 {
-                    "command": "vstortoise.svnDiff",
+                    "command": "vstortoise.svnRevert",
                     "group": "TortoiseSVN@5"
                 },
                 {
-                    "command": "vstortoise.svnBlame",
+                    "command": "vstortoise.svnDiff",
                     "group": "TortoiseSVN@6"
                 },
                 {
-                    "command": "vstortoise.svnProperties",
+                    "command": "vstortoise.svnBlame",
                     "group": "TortoiseSVN@7"
                 },
                 {
-                    "command": "vstortoise.svnRepobrowser",
+                    "command": "vstortoise.svnProperties",
                     "group": "TortoiseSVN@8"
+                },
+                {
+                    "command": "vstortoise.svnRepobrowser",
+                    "group": "TortoiseSVN@9"
                 }
             ],
             "explorer/context": [
