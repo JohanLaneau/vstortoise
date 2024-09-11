@@ -4,11 +4,10 @@ Tortoise SVN is a simple extension for TortoiseSVN binding.
 
 [https://tortoisesvn.net/](https://tortoisesvn.net/)
 
-TortoiseSVN is only available on Windows.
-Therefore this extension will NOT WORK on linux and MacOS.
-
 This extension provides commands for various Tortoise SVN actions (see list below) for the
 current active file or a folder in the explorer by right-clicking on it.
+
+This extension is a fork of the extension by Florent Ulve.
 
 ## Available Commands
 
