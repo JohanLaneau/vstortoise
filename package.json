@@ -1,7 +1,7 @@
 {
-    "name": "vstortoise",
-    "displayName": "TortoiseSVN",
-    "description": "A simple TortoiseSVN binding from Visual Code",
+    "name": "vstortoise-extra",
+    "displayName": "TortoiseSVN Extra",
+    "description": "A simple TortoiseSVN binding from Visual Code with extra commands.",
     "repository": {
         "url": "https://github.com/JohanLaneau/vstortoise"
     },
