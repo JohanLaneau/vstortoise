@@ -56,7 +56,7 @@
             },
             {
                 "command": "vstortoise.svnDiff",
-                "title": "Diff"
+                "title": "Check for modifications"
             },
             {
                 "command": "vstortoise.svnBlame",
